@@ -1,6 +1,6 @@
 ### Name: 
 ### Roll No:
-### Specification (CSE or AIML):
+### Branch (CSE or AIML):
 ### Git Hub Repo Link you made for the first demo:
 
 # **FINAL TASK** 
@@ -23,7 +23,7 @@
 
 ### Name: Sriharini Margapuri
 ### Roll No: 1005-21733065
-### Specification (CSE or AIML): CSE
+### Branch (CSE or AIML): CSE
 ### Git Hub Repo Link you made for the first demo: https://github.com/sri-harini-m/my-first-repo
 
 ![image](https://github.com/user-attachments/assets/727a70dc-f5c2-457b-9c12-2342fb54c8bb)
