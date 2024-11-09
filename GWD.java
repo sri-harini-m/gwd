@@ -3,21 +3,18 @@ import java.net.URI;
 
 public class GWD {
     public static void main(String[] args) {
-        // Define the variables
+        // Define these variables
         String name = "";
         String rollNo = "";
+        String branch = "";
         String githubRepoLink = "";
 
         try {
-            // Construct the title for the browser window
-            String title = "Roll No: " + rollNo + " - Name: " + name;
+            String title = "Roll No: " + rollNo + " - Name: " + name + " - Branch: " + branch;
 
-            // Create a URI from the GitHub repository link
             URI uri = new URI(githubRepoLink);
 
-            // Check if the Desktop class is supported on this platform
             if (Desktop.isDesktopSupported()) {
-                // Get the Desktop instance and open the URI
                 Desktop desktop = Desktop.getDesktop();
                 desktop.browse(uri);
                 System.out.println("Opened GitHub repo with title: " + title);
